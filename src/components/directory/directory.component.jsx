@@ -49,6 +49,7 @@ class Directory extends Component {
           key={section.id}
           imageUrl={section.imageUrl}
           size={section.size}
+          linkUrl={section.linkUrl}
         />
       );
     });
